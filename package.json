@@ -1,0 +1,20 @@
+{
+  "name": "whatsapp-sender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node ./dist/index.js",
+    "start:dev": "npm run build && npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "4.2.4"
+  },
+  "dependencies": {
+    "whatsapp-web.js": "1.12.6"
+  }
+}
